@@ -1,0 +1,624 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FuelPriceSolution
+</name>
+</assembly>
+<members>
+<member name="T:FuelPriceSolution.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FuelPriceSolution.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:FuelPriceSolution.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:FuelPriceSolution.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:FuelPriceSolution.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:FuelPriceSolution.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="T:FuelPriceSolution.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:FuelPriceSolution.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:FuelPriceSolution.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:FuelPriceSolution.My.Resources.Resources.Page">
+<summary>
+  Busca una cadena traducida similar a &lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;!-- Bootstrap --&gt;
+    &lt;link href=&quot;http://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;../ContentTemplate/bootstrap/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;../ContentTemplate/nprogress/nprogress.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;link href=&quot;../ContentTemplate/iCheck/skins/flat/green.css&quot; rel=&quot;stylesheet&quot;&gt;
+    &lt;!-- PNoti [resto de la cadena truncado]&quot;;.
+</summary>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._txtLlave">
+<summary>
+Control txtLlave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._txtBase">
+<summary>
+Control txtBase.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._cmbDocumentos">
+<summary>
+Control cmbDocumentos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._txtNuevaFicha">
+<summary>
+Control txtNuevaFicha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._btnAgregaFicha">
+<summary>
+Control btnAgregaFicha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._btnBusca">
+<summary>
+Control btnBusca.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._rptFraces">
+<summary>
+Control rptFraces.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._txtFichaSeleccionada">
+<summary>
+Control txtFichaSeleccionada.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Diccionario._rptEnFicha">
+<summary>
+Control rptEnFicha.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Login._txtUserName">
+<summary>
+Control txtUserName.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Login._txtUserPass">
+<summary>
+Control txtUserPass.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Login._chkPersistCookie">
+<summary>
+Control chkPersistCookie.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.Login._btnLogin">
+<summary>
+Control btnLogin.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.logout._form1">
+<summary>
+control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._panelRegistro">
+<summary>
+Control panelRegistro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._pnlReg">
+<summary>
+Control pnlReg.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._cmbTerminal">
+<summary>
+Control cmbTerminal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._cmbProductos">
+<summary>
+Control cmbProductos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._btnImport">
+<summary>
+Control btnImport.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._fileXls">
+<summary>
+Control fileXls.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._btnCargaReg">
+<summary>
+Control btnCargaReg.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._btnSave">
+<summary>
+Control btnSave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._grdResumen">
+<summary>
+Control grdResumen.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._lblProducto">
+<summary>
+Control lblProducto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._txtPrecio">
+<summary>
+Control txtPrecio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._txtFechaPrecio">
+<summary>
+Control txtFechaPrecio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._btnCerrar">
+<summary>
+Control btnCerrar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._btnAplica">
+<summary>
+Control btnAplica.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._grdMasiva">
+<summary>
+Control grdMasiva.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._panelImportacion">
+<summary>
+Control panelImportacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._pnlImportacion">
+<summary>
+Control pnlImportacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._Txt_Fecha_Aplicacion">
+<summary>
+Control Txt_Fecha_Aplicacion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._Btn_Import_PDF">
+<summary>
+Control Btn_Import_PDF.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._FileUpload1">
+<summary>
+Control FileUpload1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._panelInforme">
+<summary>
+Control panelInforme.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._pnlInforme">
+<summary>
+Control pnlInforme.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._cmbTerminalInforme">
+<summary>
+Control cmbTerminalInforme.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._cmbProductoInforme">
+<summary>
+Control cmbProductoInforme.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._txtDesde">
+<summary>
+Control txtDesde.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._txtHasta">
+<summary>
+Control txtHasta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._btnExcel">
+<summary>
+Control btnExcel.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.PreciosReferenciaTerminal._btnLoadReport">
+<summary>
+Control btnLoadReport.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.SiteMaster._Head_NO_USAR_EN_PAGINAS_INTERNAS">
+<summary>
+Control Head_NO_USAR_EN_PAGINAS_INTERNAS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.SiteMaster._ScriptPlaceHolder">
+<summary>
+Control ScriptPlaceHolder.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.SiteMaster._pnlMenu">
+<summary>
+Control pnlMenu.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.SiteMaster._imgLogoMCL">
+<summary>
+Control imgLogoMCL.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.SiteMaster._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.SiteMaster._ScpM">
+<summary>
+Control ScpM.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.SiteMaster._MainContent">
+<summary>
+Control MainContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.ModalAbierto(System.Web.UI.Page,System.String)">
+ <summary>
+     Abrir modal
+ </summary>
+ <param name="pagina">Pagina fuentel</param>
+ <param name="identificador">identificador modal</param>
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.CarregarFechaSoltera(System.Web.UI.Page,System.String)">
+ <summary>
+     fechaSoltera
+ </summary>
+ 
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.CarregarFechaAno(System.Web.UI.Page,System.String)">
+ <summary>
+     Carrega fecha con solo exibición del año
+ </summary>
+ 
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.CarregarFechaMes(System.Web.UI.Page,System.String)">
+ <summary>
+     Carrega fecha con solo exibición del año
+ </summary>
+ 
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.CarregarFechaRanger(System.Web.UI.Page,System.String,System.String,System.String)">
+ <summary>
+     Carregar Fecha ranger
+ </summary>
+ 
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.InhabilitarTab(System.Web.UI.Page,System.String)">
+ <summary>
+     Inhabilita la tab
+ </summary>
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.LlenarDatosSelect2(System.Web.UI.Page,System.String,System.String)">
+ <summary>
+     Cerrar modal
+ </summary>
+ <param name="pagina">Pagina fuente</param>
+ <param name="identificador">Identificador de lo Select2</param>
+</member>
+<member name="M:FuelPriceSolution.SiteMaster.RetornaMesEscrito(System.String)">
+ <summary>
+     Cerrar modal
+ </summary>
+ <param name="mesNumero">mes en número</param>
+</member>
+<member name="F:FuelPriceSolution.TestControls._txtDescrip">
+<summary>
+Control txtDescrip.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.TestControls._radCombo1">
+<summary>
+Control radCombo1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.TestControls._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.TestControls._panel1">
+<summary>
+Control panel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.TestControls._btnSave">
+<summary>
+Control btnSave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.TestControls._ibtncountry">
+<summary>
+Control ibtncountry.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:FuelPriceSolution.TestControls._lblUno">
+<summary>
+Control lblUno.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
